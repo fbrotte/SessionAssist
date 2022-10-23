@@ -11,3 +11,9 @@ $raduis-normal: 5px;
 @import 'base/reset';
 @import 'base/layout';
 @import 'base/base';
+
+// Components
+@import 'components/button';
+@import 'components/form';
+@import 'components/link';
+@import 'components/title-header';

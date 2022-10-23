@@ -1,0 +1,39 @@
+.btn {
+    background-color: $color-white;
+    padding: 5px 10px;
+    border-radius: $raduis-normal;
+    text-decoration: none;
+    color: $color-black;
+    &:hover {
+        background-color: 0%;
+    }
+}
+
+.btn-large {
+    padding: 0.8em 1em;
+}
+
+.btn-more {
+    background: url('/img/more.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $color-white;
+}
+
+.btn-back{
+    background: url('/img/back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-important {
+    background-color: $color-important;
+    color: $color-white;
+}
+
+.btn-group {
+    .btn {
+        margin-right: 10px
+    }
+}
