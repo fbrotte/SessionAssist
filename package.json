@@ -8,11 +8,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "firebase-admin": "^11.2.0",
+    "firebase-functions": "^4.0.1",
+    "firebase-functions-test": "^3.0.0",
     "nuxt": "3.0.0-rc.12",
     "sass": "^1.55.0",
     "sass-loader": "^13.1.0"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.3"
+    "@pinia/nuxt": "^0.4.3",
+    "firebase": "^9.12.1"
   }
 }
