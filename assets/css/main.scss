@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost');
+
+$color-primary: #4834D4;
+$color-important: #F0932B;
+$color-white: #DFF9FB;
+$color-black: #000;
+
+$raduis-normal: 5px;
+
+// base
+@import 'base/reset';
+@import 'base/layout';
+@import 'base/base';

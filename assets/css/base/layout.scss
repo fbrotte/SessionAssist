@@ -1,0 +1,23 @@
+$marge: 30px;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container-center {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-full {
+    margin: 0 15%;
+    justify-content: space-between;
+}
+
+header {
+    * {
+        margin-top: 20px;
+    }
+}
