@@ -10,7 +10,7 @@
           <label for="">Password</label>
           <input type="text" name="" id="">
   
-          <NuxtLink class="link">Creer un compte</NuxtLink>
+          <NuxtLink to="register" class="link">Creer un compte</NuxtLink>
         </div>
       </form>
 

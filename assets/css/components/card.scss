@@ -1,0 +1,18 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-white;
+    color: $color-black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: $raduis-normal;
+
+    img {
+        height: 40px;
+    }
+}
+
+.title-card {
+    font-size: 20px;
+    font-weight: bold;
+}

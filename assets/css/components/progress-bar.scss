@@ -1,0 +1,14 @@
+.progress-bar{
+    display: flex;
+    
+    .bar {
+        margin-left: 5px;
+        width: 100%;
+        border: 1px solid #DFF9FB;
+        .progress{
+            width: 0%;
+            height: 20px;
+            background-color: $color-important;
+        }
+    }
+}
